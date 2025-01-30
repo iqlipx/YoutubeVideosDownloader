@@ -12,11 +12,11 @@ YouTube Videos Downloader is a simple and user-friendly Python tool that allows 
 
 ## Requirements
 
-Ensure you have Python installed on your system.
+Ensure you have Python3 installed on your system.
 
 ## Dependencies
 
-- Python
+- Python3
 - Tkinter
 - Pytube
 
@@ -29,20 +29,24 @@ Ensure you have Python installed on your system.
    git clone https://github.com/iqlipx/YoutubeVideosDownloader.git
 
 
-# Navigate to the project directory:
+2. Navigate to the project directory:
+   
+   ```bash
+   cd YoutubeVideosDownloader
+   cd youtube-videos-downloader
+   ```
 
-- cd YoutubeVideosDownloader
-- cd youtube-videos-downloader
+3. Install the required dependencies:
 
-# Install the required dependencies:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
-- pip install -r requirements.txt
-
-### Usage
-
-# Run the app.py script:
-
-- python app.py
+4. Run the app.py script:
+   ```bash
+    python3 app.py
+   ```
+## Usage
 
 - Enter a valid YouTube URL in the provided input field.
 - Click the "Download" button.
